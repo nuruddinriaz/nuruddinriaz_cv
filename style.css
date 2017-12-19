@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:serif;
+	font-size:18px;
+	background: #F3F3F3;
+}
+p{
+	font-family:sans-serif;
+}
+header {
+	background: #EDEDED;
+	overflow: hidden;
+	padding: 15px;
+}
+.container{
+	width:1170px;
+	margin:0 auto;
+}
+.profile_pic{
+	float:left;
+}
+.profile_pic img {
+	width: 1.5in;
+	height: 1.90in;
+	border-radius: 50%;
+}
+.title {
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 45px 0 0 10px;
+	display: inline-block;
+}
+.right {
+	float: right;
+	max-width: 245px;
+	margin-top: 55px;
+	font-size: 20px;
+}
+.right a {
+	text-decoration:none;
+	color:#000;
+}
+.contant {
+	padding-top: 30px;
+}
+.border{
+	border-bottom:1px solid #aaa;
+	overflow: hidden;
+}
+.cleft{
+	width:20%;
+	float:left;
+}
+.cright {
+	width: 80%;
+	float: right;
+	padding-bottom: 30px;
+	text-align: justify;
+}
+.second{
+	padding-top:15px;
+}
+.one {
+	float: left;
+	width: 33%;
+}
+.two{
+	float:left;
+	width: 33%;
+}
+form input{
+	padding:5px 10px;
+}
+form textarea{
+	display:block;
+}
+input {
+	font-size: 20px;
+	margin-top: 5px;
+}
